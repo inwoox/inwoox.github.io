@@ -66,41 +66,44 @@
           <div class="row">
             <div class="alert alert-primary skill-box">
               <p class="h3 text-left skill-title">JAVA</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Spring Framework, Spring Boot를 통한 백엔드 서비스 개발 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Spring Framework, Spring Boot를 통한 백엔드 개발 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Spring Security (요청 단위 인증, 사용자 인증 처리) </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> REST API 설계 / 레이어드 아키텍처 & 헥사고날 아키텍처 구현</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Microservice Achitecture 경험 (+ 유레카 서비스 레지스트리) </p>
               <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Maven, Gradle 등 빌드 관리 도구 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> ng Boot를 통한 백엔드 서비스 개발 </p>
             </div>
             <div class="alert alert-success skill-box">
               <p class="h3 text-left skill-title">Javascript / HTML / CSS</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Vue.js를 통한 프론트엔드 개발 (vuex,vuerouter,) </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> jquery </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 부트스트랩 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Vue.js Framework (vuex, vue-router, component, 이벤트 처리) </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Sequelize (ORM), bcrypt, JWT, vue-cookies 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Bootstrap을 통한 UI, 반응형 UI 구현 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Jquery를 통한 이벤트 연결 / 요소 엑세스 등</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 기본적인 HTML, CSS 사용</p>
             </div>
           </div>
           <div class="row">
             <div class="alert alert-danger skill-box">
               <p class="h3 text-left skill-title">Python / C#</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 파이썬 크롤러 및 C# 크롤러 구현 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 백엔드 서비스 개발 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> ng Boot를 통한 백엔드 서비스 개발 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 파이썬 크롤러 및 C# 크롤러 등 필요한 프로그램 구현 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> C#을 통한 데스크톱 프로그램 구현 (온라인 클래스 운영)</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Python, tensorflow나 Scikit-learn을 통한 머신러닝 경험 </p>
             </div>
             <div class="alert alert-warning skill-box">
               <p class="h3 text-left skill-title">OS / DB</p><br/>
               <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 리눅스 (MAC) 환경 개발 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> DB 설계 (데이터모델링) 및 JPA,Hibernate 등 ORM 사용 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> ng Boot를 통한 백엔드 서비스 개발 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> JPA,Hibernate 등 ORM을 통한 데이터 퍼시스턴스 구현 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> MySQL 데이터모델링, 엔터티 설계 </p>
             </div>
           </div>
           <div class="row">
-            <div class="alert alert-info skill-box">
+            <div class="alert alert-info skill-box skill-etc">
               <p class="h3 text-left skill-title">ETC</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Docker를 통한 DB 및 메시지 큐(Kafka, RabbitMQ) 등 구축</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Docker를 통한 MySQL, Gogs, 메시지 브로커 (Kafka, RabbitMQ) 컨테이너 실행 등 </p>
               <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Docker, 젠킨스를 통한 배포 자동화 (CI/CD) </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Github 등 버전 관리 시스템을 통해, 구성 서버 구축 </p>
-            </div>
-            <div class="alert alert-secondary skill-box">
-              <span class="h3 skill-title">JAVA</span><br/>
-              <span>aldkfja</span>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 도커 컴포즈, 쿠버네티스 운영 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Github, Gogs 등 버전 관리 시스템을 통해, 구성 서버 구축 (PUSH마다 자동 구성 속성 리프레시 구현) </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> AWS 등 클라우드 배포 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Github, Bitbucket, Gogs를 통한 코드 관리 경험 </p>
             </div>
           </div>
         </section>
@@ -280,6 +283,9 @@
                   <p class="project-subject-mapper">
                     <span class="project-subject-name">포트폴리오 깃허브 </span>
                     <span class="project-subject-year">2021.01</span>
+                    <span class="project-description-text text-left">
+                      <a href="https://github.com/inwoox/inwoox.github.io" style="font-size:2rem; color:black; margin-left:5%;"><font-awesome-icon :icon="['fab','github']"/></a>
+                    </span>
                   </p>
                   <div class="col">
                     <div class="project-description-mapper">
@@ -287,25 +293,27 @@
                         <strong>제작 기간</strong> 2021.01.15 ~ 
                       </p>
                       <p class="project-description-text text-left">
-                        <strong>경험 및 기술</strong> 깃허브 페이지에 포트폴리오를 만들어보았습니다.<br/>
-                        Vuejs 라이프 사이클 훅, Jquery를 통한 스크롤스파이 형태의 SPA 구현<br/>
-                        글자 타이핑, 페이드 효과, 마우스 오버 효과 등 여러 트랜지션 효과<br/>
-                        부트스트랩을 통한 반응형 UI 구성<br/>
-                        EmailJS를 통한 이메일 발송 기능 등
+                        <strong>요약</strong> 깃허브 페이지에 포트폴리오를 만들어보았습니다.<br/>
+                        Vuejs 라이프 사이클 훅, Jquery를 통한 스크롤스파이 형태의 SPA 구현하였으며,<br/>
+                        글자 타이핑, 페이드 효과, 마우스 오버 효과 등 여러 트랜지션 효과를 주어<br/>
+                        페이지를 좀 더 세련되게 만들었고, 부트스트랩을 통해 반응형 UI 구성하였습니다.<br/>
+                        Contact 페이지에는 EmailJS를 통한 이메일 발송 기능을 넣어 <br/>
+                        궁금하신 사항이 있으실 경우 메일을 발송할 수 있도록 하였습니다.
                       </p>
                       <p class="project-description-text text-left">
-                        <strong>성과</strong> 디자인에 대해 많은 고민을 하게 되면서, 자연스럽게 부트스트랩과 CSS를 <br/>
-                        사용하는데 좀 더 익숙해진 것 같습니다. Vuejs를 통해 SPA를 만들어왔지만, <br/>
-                        그것과는 다르게, 스크롤스파이 형태의 SPA를 구성해보는 좋은 경험이었습니다.
+                        <strong>경험 / 기술</strong><br/>
+                        Vuejs 프레임워크를 통한 구현<br/>
+                        bootstrap을 통한 UI, 반응형 UI<br/>
+                        jquery를 통한 스크롤스파이<br/>
+                        EmailJS를 통한 메일 발송<br/>
+                        vue-carousel을 통한 슬라이드<br/>
+                        페이드, 타이핑, transform 효과, 웹폰트 적용<br/>
                       </p>
                     </div>
-                    <p class="project-description-text text-left">
-                      <a href="https://github.com/inwoox/inwoox.github.io" style="font-size:3rem; color:gray;"><font-awesome-icon :icon="['fab','github']"/></a>
-                    </p>
                   </div>
                 </div>
                 <div class="col project-mapper">
-                  <img src="img/port.png" class="project-image">
+                  <img src="img/careerimage.png" class="project-image">
                 </div>
 
                 <div class="row">
@@ -335,51 +343,60 @@
                 <div class="col project-mapper">
                   <p class="project-subject-mapper">
                     <span class="project-subject-name">타코 주문 서비스 </span>
-                    <span class="project-subject-year">2021.01</span>
+                    <span class="project-subject-year">2020.10</span>
+                    <span class="project-description-text text-left">
+                      <a href="https://github.com/inwoox/inwoox.github.io" style="font-size:2rem; color:black; margin-left:5%;"><font-awesome-icon :icon="['fab','github']"/></a>
+                    </span>
                   </p>
                   <div class="col">
                     <div class="project-description-mapper">
                       <p class="project-description-text text-left">
-                        <strong>제작 기간</strong> 2021.01.15 ~ 
+                        <strong>제작 기간</strong> 2020.10.28 ~ 2021.11.22
                       </p>
                       <p class="project-description-text text-left">
-                        <strong>경험 및 기술</strong> 깃허브 페이지에 포트폴리오를 만들어보았습니다.<br/>
-                        Vuejs 라이프 사이클 훅, Jquery를 통한 스크롤스파이 형태의 SPA 구현<br/>
-                        글자 타이핑, 페이드 효과, 마우스 오버 효과 등 여러 트랜지션 효과<br/>
-                        부트스트랩을 통한 반응형 UI 구성<br/>
-                        EmailJS를 통한 이메일 발송 기능 등
+                        <strong>요약</strong> 타코를 만들 식자재를 골라 타코를 만들고 주문하는 서비스<br/>
+                        스프링 부트를 통해 구현하였으며, 템플릿 엔진은 thymeleaf를 사용하였습니다.<br/>
+                        Mysql, H2 DB를 사용하였고, 데이터 퍼시스턴스는 JDBC, JPA를 사용하였고,<br/>
+                        스프링 시큐리티를 통한 웹 요청 보안 처리, 구성 서버를 운영하여 구성 속성 관리<br/>
+                        유레카 서비스 레지스트리나 서비스 액추에이터를 단일 서비스로 구성하면서, <br/>
+                        MSA에 대해 조금 접해보는 기회가 되었습니다.
                       </p>
                       <p class="project-description-text text-left">
-                        <strong>성과</strong> 디자인에 대해 많은 고민을 하게 되면서, 자연스럽게 부트스트랩과 CSS를 <br/>
-                        사용하는데 좀 더 익숙해진 것 같습니다. Vuejs를 통해 SPA를 만들어왔지만, <br/>
-                        그것과는 다르게, 스크롤스파이 형태의 SPA를 구성해보는 좋은 경험이었습니다.
+                        <strong>경험 / 기술</strong><br/>
+                        스프링부트를 통해 구축 / 유효성 검사<br/>
+                        프론트는 Thymeleaf 템플릿 엔진으로 구현<br/>
+                        스프링 시큐리티를 통한 웹 요청 보안 처리<br/>
+                        REST 컨트롤러 설계<br/>
+                        JPA를 통한 데이터 퍼시스턴스<br/>
+                        MYSQL 데이터모델링 <br/>
+                        도커를 통해 카프카나 Mysql, gogs 컨테이너 실행<br/>
+                        깃, 구성 서버를 통한 구성 속성 관리 (gogs를 통해 실시간 구성 속성 리프레시)<br/>
+                        유레카 서비스 레지스트리, 액추에이터 엔드포인트 구성 시 MSA로 구현<br/>
                       </p>
                     </div>
-                    <p class="project-description-text text-left">
-                      <a href="https://github.com/inwoox/inwoox.github.io" style="font-size:3rem; color:gray;"><font-awesome-icon :icon="['fab','github']"/></a>
-                    </p>
+                   
                   </div>
                 </div>
                 <div class="col project-mapper">
-                  <img src="img/port.png" class="project-image">
+                  <img src="img/taco.png" class="project-image">
                 </div>
 
                 <div class="row">
                   <div class="col project-mapper">
-                    <img src="img/careerimage.png" class="project-sub-image">
-                    <p class="project-description-text">이것은 거시기입니다</p>
+                    <img src="img/taco1.png" class="project-sub-image">
+                    <p class="project-description-text">타코를 주문하는 페이지입니다</p>
                   </div>
                   <div class="col project-mapper">
-                    <img src="img/homeimage.png" class="project-sub-image">
-                    <p class="project-description-text">이것은 거시기입니다</p>
+                    <img src="img/taco2.png" class="project-sub-image">
+                    <p class="project-description-text">결제를 위한 페이지입니다</p>
                   </div>
                   <div class="col project-mapper">
-                    <img src="img/aboutimage.png" class="project-sub-image">
-                    <p class="project-description-text">이것은 거시기입니다</p>
+                    <img src="img/taco3.png" class="project-sub-image">
+                    <p class="project-description-text">설명 페이지입니다</p>
                   </div>
                   <div class="col project-mapper">
-                    <img src="img/contactimage.png" class="project-sub-image">
-                    <p class="project-description-text">이것은 거시기입니다</p>
+                    <img src="img/taco4.png" class="project-sub-image">
+                    <p class="project-description-text">주문한 이력을 보여주는 페이지입니다</p>
                   </div>
                 </div>
               </div>
@@ -390,51 +407,58 @@
               <div class="row">
                 <div class="col project-mapper">
                   <p class="project-subject-mapper">
-                    <span class="project-subject-name">트렐로와 유사한 작업 관리</span>
-                    <span class="project-subject-year">2021.01</span>
+                    <span class="project-subject-name">트렐로와 유사한 작업 관리 </span>
+                    <span class="project-subject-year">2020.11</span>
+                    <span class="project-description-text text-left">
+                      <a href="https://github.com/inwoox/inwoox.github.io" style="font-size:2rem; color:black; margin-left:5%;"><font-awesome-icon :icon="['fab','github']"/></a>
+                    </span>
                   </p>
                   <div class="col">
                     <div class="project-description-mapper">
                       <p class="project-description-text text-left">
-                        <strong>제작 기간</strong> 2021.01.15 ~ 
+                        <strong>제작 기간</strong> 2020.11.23 ~ 2020.12.25
                       </p>
                       <p class="project-description-text text-left">
-                        <strong>경험 및 기술</strong> 깃허브 페이지에 포트폴리오를 만들어보았습니다.<br/>
-                        Vuejs 라이프 사이클 훅, Jquery를 통한 스크롤스파이 형태의 SPA 구현<br/>
-                        글자 타이핑, 페이드 효과, 마우스 오버 효과 등 여러 트랜지션 효과<br/>
-                        부트스트랩을 통한 반응형 UI 구성<br/>
-                        EmailJS를 통한 이메일 발송 기능 등
+                        <strong>요약</strong> 트렐로와 비슷한 작업 관리 서비스를 만들어보았습니다.<br/>
+                        Spring-boot와 Vuejs를 통해 만들었으며, 데이터 퍼시스턴스로 Hinernate 사용<br/>
+                        Maven의 플러그인을 이용하여 프론트와 백엔드를 한번에 빌드하도록 구성,<br/>
+                        Spring AOP를 통해 횡단 관심사 처리, 선언적 트랜잭션 관리 <br/>
+                        백엔드는 헥사고날 아키텍처, 같은 도메인에 속하는 클래스를 같은 패키지에 위치<br/>
+                        JWT를 통해 클라이언트 인증을 구현하였습니다.
                       </p>
                       <p class="project-description-text text-left">
-                        <strong>성과</strong> 디자인에 대해 많은 고민을 하게 되면서, 자연스럽게 부트스트랩과 CSS를 <br/>
-                        사용하는데 좀 더 익숙해진 것 같습니다. Vuejs를 통해 SPA를 만들어왔지만, <br/>
-                        그것과는 다르게, 스크롤스파이 형태의 SPA를 구성해보는 좋은 경험이었습니다.
+                        <strong>경험 / 기술</strong><br/>Spring JDBC / Spring MVC<br/>
+                        프론트, 백엔드 데이터 검증 <br/>
+                        선언적 트랜잭션 관리<br/>
+                        API (Controller) 설계 (입력 값, 유효성 검증 규칙, 출력, 상태 코드, 명명 규칙)<br/>
+                        헥사고날 아키텍처를 채택한 백엔드 아키텍처 구현<br/>
+                        Spring Security의 필터를 커스터마이징하여 API 앞에서 요청 단위 인증<br/>
+                        Spring Security, JWT를 통한 사용자 인증 처리<br/>
+                        Spring AOP를 통해, 메서드 단위의 권한 부여 (횡단 관심사 처리)<br/>
+                        Java EE Mail API를 이용한 메일 발송 구현<br/>
                       </p>
                     </div>
-                    <p class="project-description-text text-left">
-                      <a href="https://github.com/inwoox/inwoox.github.io" style="font-size:3rem; color:gray;"><font-awesome-icon :icon="['fab','github']"/></a>
-                    </p>
                   </div>
                 </div>
                 <div class="col project-mapper">
-                  <img src="img/port.png" class="project-image">
+                  <img src="img/task.png" class="project-image">
                 </div>
 
                 <div class="row">
                   <div class="col project-mapper">
-                    <img src="img/port.png" class="project-sub-image">
+                    <img src="img/task1.png" class="project-sub-image">
                     <p class="project-description-text">이것은 거시기입니다</p>
                   </div>
                   <div class="col project-mapper">
-                    <img src="img/port.png" class="project-sub-image">
+                    <img src="img/task2.png" class="project-sub-image">
                     <p class="project-description-text">이것은 거시기입니다</p>
                   </div>
                   <div class="col project-mapper">
-                    <img src="img/port.png" class="project-sub-image">
+                    <img src="img/task3.png" class="project-sub-image">
                     <p class="project-description-text">이것은 거시기입니다</p>
                   </div>
                   <div class="col project-mapper">
-                    <img src="img/port.png" class="project-sub-image">
+                    <img src="img/task4.png" class="project-sub-image">
                     <p class="project-description-text">이것은 거시기입니다</p>
                   </div>
                 </div>
@@ -634,9 +658,9 @@ import $ from 'jquery'
 .profile-text { text-align: left; margin-left: 20%; font-size: 1.2rem;  color:rgb(91, 90, 90);  line-height: 150%;}
 
 .skill-box { width: 45%; margin-left: 2%;}
+.skill-etc { width: 92%;}
 .skill-subject { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 3%; margin-right: 10%;}
-.skill-text { color:rgb(91, 90, 90); }
-
+.skill-text { color:rgb(91, 90, 90); margin-bottom: 1%; }
 
 .career-box { margin-left: 5%; margin-top: 2%;}
 .career-year { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; }
@@ -657,9 +681,9 @@ import $ from 'jquery'
 .project-subject-name { font-size: 2rem; font-family: 'Noto Sans KR', sans-serif;  }
 .project-subject-year {  color: rgb(128, 125, 125); }
 .project-image { width:100%; border: 2px solid black; height: 75%; }
-.project-sub-image { width:100%;}
+.project-sub-image { width:85%;}
 .project-description-name { font-size: 1.4rem; font-family: 'Noto Sans KR', sans-serif; }
-.project-description-text { color:rgb(91, 90, 90); margin-top: 5%;}
+.project-description-text { color:rgb(91, 90, 90); margin-top: 3%;}
 
 
 
