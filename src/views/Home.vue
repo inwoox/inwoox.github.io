@@ -665,6 +665,7 @@ import $ from 'jquery'
 
 @media screen and (max-width:700px) {
   .nav-menu-item { font-size: 0.8rem; padding: 0 3px;}
+  .nav-menu { margin-top: 3%;}
 }
 
 
