@@ -664,8 +664,8 @@ import $ from 'jquery'
 }
 
 @media screen and (max-width:700px) {
-  .nav-menu-item { font-size: 0.8rem; padding: 0 3px;}
-  .nav-menu { margin-top: 3%;}
+  .nav-menu-item { font-size: 0.75rem; padding: 0 2px;}
+  
 }
 
 
@@ -676,7 +676,7 @@ import $ from 'jquery'
 }
 @media screen and (max-width:750px) {
   .home-text { font-size: 1.2rem; }
-  .home-text h1 { font-size: 1.2rem;}
+  .home-text h1 { font-size: 1.1rem;}
 }
 
 .profile-text { text-align: left; margin-left: 20%; font-size: 1.2rem;  color:rgb(91, 90, 90);  line-height: 150%;}
