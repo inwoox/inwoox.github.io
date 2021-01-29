@@ -653,8 +653,31 @@ import $ from 'jquery'
 //.un-on { transition: all 1s; transition-property: opacity; opacity: 0.8; color: burlywood; }
 
 
-
 .home-text { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; margin-top: 3%; margin-right: 50%;}
+
+@media screen and (max-width:1050px) {
+  .nav-menu-item { font-size: 1.2rem; padding: 0 20px;}
+}
+
+@media screen and (min-width:700px) and (max-width:1050px) {
+  .nav-menu-item { font-size: 1.1rem; padding: 0 10px;}
+}
+
+@media screen and (max-width:700px) {
+  .nav-menu-item { font-size: 0.8rem; padding: 0 3px;}
+}
+
+
+
+@media screen and (min-width:750px) and (max-width:950px) {
+  .home-text { font-size: 2rem; }
+  .home-text h1 { font-size: 2rem;}
+}
+@media screen and (max-width:750px) {
+  .home-text { font-size: 1.2rem; }
+  .home-text h1 { font-size: 1.2rem;}
+}
+
 .profile-text { text-align: left; margin-left: 20%; font-size: 1.2rem;  color:rgb(91, 90, 90);  line-height: 150%;}
 
 .skill-box { width: 45%; margin-left: 2%;}
@@ -684,8 +707,6 @@ import $ from 'jquery'
 .project-sub-image { width:85%;}
 .project-description-name { font-size: 1.4rem; font-family: 'Noto Sans KR', sans-serif; }
 .project-description-text { color:rgb(91, 90, 90); margin-top: 3%;}
-
-
 
 
 .contact-mapper { border-left: 5px solid black;}
