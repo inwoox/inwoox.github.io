@@ -664,7 +664,7 @@ import $ from 'jquery'
 }
 
 @media screen and (max-width:700px) {
-  .nav-menu-item { font-size: 0.75rem; padding: 0 2px;}
+  .nav-menu-item { font-size: 0.9rem; padding: 0 3px;}
   .nav { height: 5%;}
   #home { background-size: cover; }
 }
