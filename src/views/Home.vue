@@ -54,7 +54,7 @@
             </div>
             <div class="col">
               <br/><br/>
-              <img src="/img/profile1.jpg" alt="">
+              <img src="/img/profile1.jpg" class="profile-image">
             </div>
           </div>
         </section>
@@ -684,14 +684,14 @@ import $ from 'jquery'
 }
 
 // About 페이지 반응형
-@media screen and (min-width:1700px) and (max-width:2400px) {
+@media screen and (min-width:1780px) and (max-width:2400px) {
   .profile-text { margin-left: 20%; }
 }
-@media screen and (min-width:1400px) and (max-width:1700px) {
+@media screen and (min-width:1500px) and (max-width:1780px) {
   .profile-text-subject { font-size:1.6rem;}
   .profile-text { font-size: 1.1rem; margin-left: 10%; margin-top: 2%;}
 }
-@media screen and (min-width:680px) and (max-width:1400px) {
+@media screen and (min-width:680px) and (max-width:1500px) {
   .profile-text-subject { font-size:1.4rem;}
   .profile-text { font-size: 1rem; margin-left: 5%; margin-top: 5%;}
 }
@@ -700,12 +700,26 @@ import $ from 'jquery'
   .profile-text { font-size: 0.6rem; }
 }
 
+// Skill 페이지 반응형
+@media screen and (min-width:1700px) and (max-width:2400px) {
+  .skill-subject { margin-bottom: 3%; font-size: 3rem;}
+  .skill-text { margin-bottom: 1%; }
+}
+@media screen and (min-width:1000px) and (max-width:1700px) {
+  .skill-subject { margin-bottom: 2%; font-size: 2.5rem;}
+  .skill-text { margin-bottom: 0%; }
+}
+@media screen and (max-width:1000px) {
+  .skill-subject { margin-bottom: 5%; font-size: 1.5rem; }
+  .skill-text { margin-bottom: 0%; font-size: 0.7rem; }
+}
+
 .profile-text { text-align: left; color:rgb(91, 90, 90);  line-height: 150%;}
 
 .skill-box { width: 45%; margin-left: 2%;}
 .skill-etc { width: 92%;}
-.skill-subject { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 3%; margin-right: 10%;}
-.skill-text { color:rgb(91, 90, 90); margin-bottom: 1%; }
+.skill-subject { font-family: 'Noto Sans KR', sans-serif; margin-right: 10%;}
+.skill-text { color:rgb(91, 90, 90); }
 
 .career-box { margin-left: 5%; margin-top: 2%;}
 .career-year { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; }
