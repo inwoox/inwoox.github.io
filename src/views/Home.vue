@@ -704,6 +704,12 @@ import $ from 'jquery'
 @media screen and (max-width:680px) {
   .profile-text-subject { font-size:0.9rem; }
   .profile-text { font-size: 0.6rem; }
+
+  #about {
+    width: 680px !important;
+    left:0; right:0;
+    margin:auto;
+  }
 }
 
 // Skill 페이지 반응형
