@@ -696,8 +696,8 @@ import $ from 'jquery'
   .profile-text { font-size: 1rem; margin-left: 5%; margin-top: 5%;}
 }
 @media screen and (max-width:680px) {
-  .profile-text-subject { font-size:1rem; }
-  .profile-text { font-size: 0.7rem; }
+  .profile-text-subject { font-size:0.9rem; }
+  .profile-text { font-size: 0.6rem; }
 }
 
 .profile-text { text-align: left; color:rgb(91, 90, 90);  line-height: 150%;}
