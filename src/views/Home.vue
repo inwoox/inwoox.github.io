@@ -681,6 +681,12 @@ import $ from 'jquery'
 @media screen and (max-width:750px) {
   .home-text { font-size: 1.1rem; }
   .home-text h1 { font-size: 1rem;}
+
+  #home {
+    width: 750px !important;
+    left:0; right:0;
+    margin:auto;
+  }
 }
 
 // About 페이지 반응형
