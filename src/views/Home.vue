@@ -175,8 +175,8 @@
                 <h1 class="career-year">Activity</h1>
                 <p class="career-company">
                   <span class="career-company-name">BLOG 운영 </span>
-                  <span class="career-company-year">2017.01 - 현재 </span>
-                  <span><a href="https://inwoox.tistory.com/" style="font-size:1.5rem; margin-left:51%; color:burlywood;"><font-awesome-icon :icon="['fas','blog']"/></a> </span>
+                  <span class="career-company-year">2017.01 -</span>
+                  <span><a href="https://inwoox.tistory.com/" class="career-icon"><font-awesome-icon :icon="['fas','blog']"/></a> </span>
                 </p>
                 <p class="career-company-text">
                   여러가지 개발 주제를 다루는 기술 블로그를 운영하고 있습니다.<br/>
@@ -187,8 +187,8 @@
               <div class="career-box text-left">
                 <p class="career-company">
                   <span class="career-company-name">Youtube 운영 </span>
-                  <span class="career-company-year">2019.03 - 현재</span>
-                  <span><a href="https://www.youtube.com/%EC%84%B8%EC%83%81%EC%9D%98%EB%AA%A8%EB%93%A0%EC%BD%94%EB%94%A9" style="font-size:1.5rem; margin-left:48%; color:burlywood;"><font-awesome-icon :icon="['fab','youtube']"/></a> </span>
+                  <span class="career-company-year">2019.03 -</span>
+                  <span><a href="https://www.youtube.com/%EC%84%B8%EC%83%81%EC%9D%98%EB%AA%A8%EB%93%A0%EC%BD%94%EB%94%A9" class="career-icon"><font-awesome-icon :icon="['fab','youtube']"/></a> </span>
                 </p>
                 <p class="career-company-text">
                   C#이나, Vuejs, Python, Git 등 다양한 주제에 대하여 영상을 업로드하고 있습니다.<br/>
@@ -201,8 +201,8 @@
               <div class="career-box text-left">
                 <p class="career-company">
                   <span class="career-company-name">Class101 온라인 클래스 운영 </span>
-                  <span class="career-company-year">2020.11 - 현재</span>
-                  <span><a href="https://class101.net/products/5fad37cef17f1f000dbeb172" style="font-size:1.5rem; margin-left:19%; color:burlywood;"><font-awesome-icon :icon="['fas','chalkboard-teacher']"/></a> </span>
+                  <span class="career-company-year">2020.11 -</span>
+                  <span><a href="https://class101.net/products/5fad37cef17f1f000dbeb172" class="career-icon"><font-awesome-icon :icon="['fas','chalkboard-teacher']"/></a> </span>
                 </p>
                 <p class="career-company-text">
                   Class101이라는 온라인 클래스에 C# 크롤링 강좌를 개설하여, 운영 중에 있습니다.<br/>
@@ -253,7 +253,7 @@
                 <h1 class="career-year">Education</h1>
                 <p class="career-education">
                   <span class="career-education-name">Naver edwith 웹 프로그래밍(풀스택)</span>
-                  <span class="career-license-year"> 2020.03 - 2020.04</span>
+                  <span class="career-license-year"> 2020.03</span>
                 </p>
                 <p class="career-company-text">
                   기본적인 웹페이지를 구성하기 위한 html부터 css를 다루는 방법, <br/>
@@ -263,7 +263,7 @@
                 </p>
                 <p class="career-education">
                   <span class="career-education-name">Naver edwith 웹 백엔드</span>
-                  <span class="career-license-year"> 2020.04 - 2020.05</span>
+                  <span class="career-license-year"> 2020.04</span>
                 </p>
                 <p class="career-company-text">
                   스프링 프레임워크를 다루어보면서, Spring JDBC, Spring MVC <br/>
@@ -715,6 +715,37 @@ import $ from 'jquery'
   .skill-text { margin-bottom: 0%; font-size: 0.7rem; }
 }
 
+// career 페이지 반응형
+@media screen and (min-width:1750px) and (max-width: 2400px) {
+  .career-company-text { font-size: 1rem;}
+  .career-license-name { font-size: 1.3rem;}
+  .career-education-name { font-size: 1.3rem;}
+  .career-company-name { font-size: 1.5rem;}
+  .career-icon { font-size: 1.5rem;}
+}
+@media screen and (min-width:1600px) and (max-width: 1750px) {
+  .career-company-text { font-size: 0.9rem;}
+}
+@media screen and (min-width:1450px) and (max-width: 1600px) {
+  .career-license-name { font-size: 0.9rem;}
+  .career-education-name { font-size: 0.9rem;}
+  .career-company-name { font-size: 0.9rem;}
+  .career-company-text { font-size: 0.8rem;}
+  .career-license { width: 60%;}
+}
+@media screen and (max-width: 1450px) {
+  .career-company-text { font-size: 0.7rem;}
+  .career-company-year, .career-license-year { font-size: 0.8rem;}
+}
+@media screen and (max-width: 1000px) {
+  .career-company-text { font-size: 0.7rem;}
+  .career-license-name { font-size: 0.7rem;}
+  .career-education-name { font-size: 0.7rem;}
+  .career-company-name { font-size: 0.7rem;}
+  .career-icon { font-size: 0.7rem;}
+  .career-company-year, .career-license-year { font-size: 0.5rem;}
+}
+
 .profile-text { text-align: left; color:rgb(91, 90, 90);  line-height: 150%;}
 
 .skill-box { width: 45%; margin-left: 2%;}
@@ -725,15 +756,16 @@ import $ from 'jquery'
 .career-box { margin-left: 5%; margin-top: 2%;}
 .career-year { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; }
 .career-company { border-bottom: 1px solid burlywood; width: 95%; }
-.career-company-name { font-size: 1.5rem; font-family: 'Nanum Myeongjo', serif; color:rgb(207, 149, 73);}
+.career-company-name { font-family: 'Nanum Myeongjo', serif; color:rgb(207, 149, 73);}
 .career-company-year { color:rgb(128, 125, 125);}
 .career-company-text { color:rgb(91, 90, 90);}
-.career-license { border-bottom: 1px solid burlywood; width: 50%; }
-.career-license-name { font-size: 1.3rem; font-family: 'Nanum Myeongjo', serif; color:rgb(84, 133, 218); }
+.career-license { border-bottom: 1px solid burlywood; width: 70%; }
+.career-license-name { font-family: 'Nanum Myeongjo', serif; color:rgb(84, 133, 218); }
 .career-license-year { color:rgb(128, 125, 125); float:right; }
 .career-education { border-bottom: 1px solid burlywood; width: 80%; }
-.career-education-name { font-size: 1.3rem; font-family: 'Nanum Myeongjo', serif; color:rgb(187, 37, 60); }
+.career-education-name { font-family: 'Nanum Myeongjo', serif; color:rgb(187, 37, 60); }
 .career-line { border-left: 3px dotted black; }
+.career-icon { color:burlywood; margin-left: 2%;}
 
 
 .project-mapper { margin-top: 2%;}
