@@ -31,19 +31,19 @@
             <div class="col">
               <br/><br/>
               <transition name="fade">
-                <p class="h4 profile-text" v-if="formshow">
-                  <b class="h3 under">습관을 잘 만들고, 그 습관을 오래 지속할 수 있는 사람</b><br/><br/>
+                <p class="h5 profile-text" v-if="formshow">
+                  <b class="h3 under profile-text-subject">습관을 잘 만들고, 그 습관을 오래 지속할 수 있는 사람</b><br/><br/>
                   군대에서 신병교육대 조교로 활동할 때, <br/>
                   목표를 세우고, 세부 목표를 하나 하나 매일 체크하던 버릇이 생겨서인지, <br/>
                   저는 습관을 잘 만들고 꾸준하게 실천하는 사람이 되었습니다.<br/>
                   비록 늘 좋은 방향으로만 흘러가지는 않지만, <br/>
                   항상 좋은 방향으로 가기위해, 그리고 꾸준하게 노력하고 있습니다.<br/><br/><br/>
-                  <b class="h3 under1">새로운 기술을 배워, 그것을 적용해보며 희열을 느끼는 사람</b><br/><br/>
+                  <b class="h3 under1 profile-text-subject">새로운 기술을 배워, 그것을 적용해보며 희열을 느끼는 사람</b><br/><br/>
                   2020년에만 약 20권이 넘는 개발 관련 서적을 샀으며, 그것을 읽고 실습해보았습니다.<br/>
                   100% 다 소화하지는 못했지만, 많은 기술들을 새로 접하고, 익히고 경험해볼 수 있었던<br/>
                   즐겁고 행복한 시간이었습니다. 새로운 강좌 컨텐츠를 만들어, <br/>
                   구독하시는 분들의 만족스런 피드백을 받는 것도 즐거운 경험입니다.<br/><br/><br/>
-                  <b class="h3 under2">나이에 상관 없이, 할 수 있는 데까지 개발을 하고 싶은 사람</b><br/><br/>
+                  <b class="h3 under2 profile-text-subject">나이에 상관 없이, 할 수 있는 데까지 개발을 하고 싶은 사람</b><br/><br/>
                   돈보다도 '내 기술'을 가지고 싶고, 전문가, 기술자로 불리고 싶은 사람입니다. <br/>
                   정말 하고 싶은 일이 있는데, 나이가 너무 많아서 고민하고 있는 사람이 있다면,<br/>
                   저는 제가 그랬듯이, 지금 시작해도 늦지 않았다고, 인생은 매우 길다고 말해주고 싶습니다.<br/>
@@ -656,6 +656,7 @@ import $ from 'jquery'
 
 .home-text { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; margin-top: 3%; margin-right: 50%;}
 
+// 메인 메뉴 반응형
 @media screen and (max-width:1050px) {
   .nav-menu-item { font-size: 1.2rem; padding: 0 20px;}
 }
@@ -672,7 +673,7 @@ import $ from 'jquery'
 }
 
 
-
+// Home 페이지 반응형
 @media screen and (min-width:750px) and (max-width:950px) {
   .home-text { font-size: 2rem; }
   .home-text h1 { font-size: 2rem;}
@@ -682,7 +683,24 @@ import $ from 'jquery'
   .home-text h1 { font-size: 1rem;}
 }
 
-.profile-text { text-align: left; margin-left: 20%; font-size: 1.2rem;  color:rgb(91, 90, 90);  line-height: 150%;}
+// About 페이지 반응형
+@media screen and (min-width:1700px) and (max-width:2400px) {
+  .profile-text { margin-left: 20%; }
+}
+@media screen and (min-width:1400px) and (max-width:1700px) {
+  .profile-text-subject { font-size:1.6rem;}
+  .profile-text { font-size: 1.1rem; margin-left: 10%; margin-top: 2%;}
+}
+@media screen and (min-width:680px) and (max-width:1400px) {
+  .profile-text-subject { font-size:1.4rem;}
+  .profile-text { font-size: 1rem; margin-left: 5%; margin-top: 5%;}
+}
+@media screen and (max-width:680px) {
+  .profile-text-subject { font-size:1rem; }
+  .profile-text { font-size: 0.7rem; }
+}
+
+.profile-text { text-align: left; color:rgb(91, 90, 90);  line-height: 150%;}
 
 .skill-box { width: 45%; margin-left: 2%;}
 .skill-etc { width: 92%;}
