@@ -711,6 +711,7 @@ import $ from 'jquery'
 }
 @media screen and (max-width:1000px) {
   .skill-subject { margin-bottom: 5%; font-size: 1.5rem; }
+  .skill-title { font-size: 1rem;}
   .skill-text { margin-bottom: 0%; font-size: 0.7rem; }
 }
 
