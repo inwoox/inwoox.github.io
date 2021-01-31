@@ -665,8 +665,8 @@ import $ from 'jquery'
 }
 
 @media screen and (max-width:700px) {
-  .nav-menu-item { font-size: 0.85rem; padding: 0 3px;}
-  .nav-menu { margin-left: -4%; }
+  .nav-menu-item { font-size: 0.8rem; padding: 0 2px;}
+  .nav-menu { margin-left: -5%; }
   .nav { height: 5%; }
   #home { background-size: cover; }
 }
