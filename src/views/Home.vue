@@ -717,6 +717,7 @@ import $ from 'jquery'
 
 // career 페이지 반응형
 @media screen and (min-width:1750px) and (max-width: 2400px) {
+  .career-year { font-size: 3rem; }
   .career-company-text { font-size: 1rem;}
   .career-license-name { font-size: 1.3rem;}
   .career-education-name { font-size: 1.3rem;}
@@ -724,9 +725,11 @@ import $ from 'jquery'
   .career-icon { font-size: 1.5rem;}
 }
 @media screen and (min-width:1600px) and (max-width: 1750px) {
+  .career-year { font-size: 2.8rem; }
   .career-company-text { font-size: 0.9rem;}
 }
 @media screen and (min-width:1450px) and (max-width: 1600px) {
+  .career-year { font-size: 2.6rem; }
   .career-license-name { font-size: 0.9rem;}
   .career-education-name { font-size: 0.9rem;}
   .career-company-name { font-size: 0.9rem;}
@@ -734,10 +737,12 @@ import $ from 'jquery'
   .career-license { width: 60%;}
 }
 @media screen and (max-width: 1450px) {
+  .career-year { font-size: 2.4rem; }
   .career-company-text { font-size: 0.7rem;}
   .career-company-year, .career-license-year { font-size: 0.8rem;}
 }
 @media screen and (max-width: 1000px) {
+  .career-year { font-size: 2.4rem; }
   .career-company-text { font-size: 0.7rem;}
   .career-license-name { font-size: 0.7rem;}
   .career-education-name { font-size: 0.7rem;}
@@ -754,7 +759,7 @@ import $ from 'jquery'
 .skill-text { color:rgb(91, 90, 90); }
 
 .career-box { margin-left: 5%; margin-top: 2%;}
-.career-year { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; }
+.career-year { font-family: 'Noto Sans KR', sans-serif; }
 .career-company { border-bottom: 1px solid burlywood; width: 95%; }
 .career-company-name { font-family: 'Nanum Myeongjo', serif; color:rgb(207, 149, 73);}
 .career-company-year { color:rgb(128, 125, 125);}
