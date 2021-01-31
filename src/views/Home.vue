@@ -640,6 +640,7 @@ import $ from 'jquery'
     margin-top: 2.5%;
     //line-height: 100px;
     font-size: 20px;
+
 }
 .nav-menu-item {
     display: block;
@@ -665,7 +666,8 @@ import $ from 'jquery'
 
 @media screen and (max-width:700px) {
   .nav-menu-item { font-size: 0.85rem; padding: 0 3px;}
-  .nav { height: 5%;}
+  .nav-menu { margin-left: -4%; }
+  .nav { height: 5%; }
   #home { background-size: cover; }
 }
 
