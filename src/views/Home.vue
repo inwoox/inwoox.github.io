@@ -633,7 +633,7 @@ import $ from 'jquery'
   position: fixed;
   width: 100%;
   height: 9%;
-  left:0;
+  top:0;
   z-index: 99;
 }
 .nav-menu li {
