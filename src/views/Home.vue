@@ -659,8 +659,8 @@ import $ from 'jquery'
 
 // 메인 메뉴 반응형
 @media screen and (max-width:1050px) {
-  .nav-menu-item { font-size: 0.8rem; padding: 0 2px;}
-  .nav-menu { margin-left: -5%; }
+  .nav-menu-item { font-size: 0.7rem; padding: 0 2px;}
+  .nav-menu { margin-left: -2%; }
   .nav { height: 5%; }
   #home { background-size: cover; }
 }
