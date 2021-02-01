@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       
       <div>
-          <nav class="nav">
+          <nav class="nav fixed-top">
               <ul class="nav-menu">
                   <li @click="goPath('li1')"><a id="li1" class="nav-menu-item to-right-underline" href="#home"><font-awesome-icon :icon="['fas','home']"/> HOME</a></li>
                   <li @click="goPath('li2')"><a id="li2" class="nav-menu-item to-right-underline" href="#about"><font-awesome-icon :icon="['fas','user']"/> ABOUT</a></li>
@@ -554,6 +554,7 @@ import $ from 'jquery'
             $('input[name=contact-name]').val('');
             $('input[name=contact-email]').val('');
             $('textarea[name=contact-message]').val('');
+            alert("곧 회신 드리겠습니다. 감사합니다!");
           }, function(error) {
             console.log('FAILED...', error);
           });
