@@ -279,7 +279,7 @@
             <slide class="slide-page">
                <!-- 페이지 코드 시작 -->
               <div class="row">
-                <div class="col project-mapper">
+                <div class="col-md-6 project-mapper">
                   <p class="project-subject-mapper">
                     <span class="project-subject-name">포트폴리오 깃허브 </span>
                     <span class="project-subject-year">2021.01</span>
@@ -312,7 +312,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col project-mapper">
+                <div class="col-md-6 project-mapper">
                   <img src="img/careerimage.png" class="project-image">
                 </div>
 
@@ -340,7 +340,7 @@
             <slide class="slide-page">
                <!-- 페이지 코드 시작 -->
               <div class="row">
-                <div class="col project-mapper">
+                <div class="col-md-6 project-mapper">
                   <p class="project-subject-mapper">
                     <span class="project-subject-name">타코 주문 서비스 </span>
                     <span class="project-subject-year">2020.10</span>
@@ -377,7 +377,7 @@
                    
                   </div>
                 </div>
-                <div class="col project-mapper">
+                <div class="col-md-6 project-mapper">
                   <img src="img/taco.png" class="project-image">
                 </div>
 
@@ -405,7 +405,7 @@
             <slide class="slide-page">
                <!-- 페이지 코드 시작 -->
               <div class="row">
-                <div class="col project-mapper">
+                <div class="col-md-6 project-mapper">
                   <p class="project-subject-mapper">
                     <span class="project-subject-name">트렐로와 유사한 작업 관리 </span>
                     <span class="project-subject-year">2020.11</span>
@@ -440,7 +440,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col project-mapper">
+                <div class="col-md-6 project-mapper">
                   <img src="img/task.png" class="project-image">
                 </div>
 
@@ -504,7 +504,7 @@
                   </form>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-md-6">
                 <h1 class="contact-message">방문해주셔서 감사합니다!<br/>행복한 하루 되세요 ^^</h1>
                 <img src="/img/15.jpeg" class="contact-image">
               </div>
@@ -657,10 +657,6 @@ import $ from 'jquery'
 .home-text { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; margin-top: 3%; margin-right: 50%;}
 
 // 메인 메뉴 반응형
-@media screen and (max-width:1050px) {
-  .nav-menu-item { font-size: 1.2rem; padding: 0 20px;}
-}
-
 @media screen and (min-width:700px) and (max-width:1050px) {
   .nav-menu-item { font-size: 1.1rem; padding: 0 10px;}
 }
@@ -690,7 +686,7 @@ import $ from 'jquery'
 }
 
 // About 페이지 반응형
-@media screen and (min-width:1780px) and (max-width:2400px) {
+@media screen and (min-width:1780px) and (max-width:2800px) {
   .profile-text { margin-left: 20%; }
 }
 @media screen and (min-width:1500px) and (max-width:1780px) {
@@ -708,7 +704,7 @@ import $ from 'jquery'
 }
 
 // Skill 페이지 반응형
-@media screen and (min-width:1700px) and (max-width:2400px) {
+@media screen and (min-width:1700px) and (max-width:2800px) {
   .skill-subject { margin-bottom: 3%; font-size: 3rem;}
   .skill-text { margin-bottom: 1%; }
 }
@@ -758,6 +754,23 @@ import $ from 'jquery'
   .career-company-year, .career-license-year { font-size: 0.5rem;}
 }
 
+
+// project 페이지 반응형
+@media screen and (max-width: 700px){
+  .project-description-text { font-size: 0.7rem;}
+}
+
+// contact 페이지 반응형
+@media screen and (max-width: 2800px){
+  .contact-message { font-size: 3rem; }
+}
+@media screen and (max-width: 1300px){
+  .contact-message { font-size: 2rem; }
+}
+@media screen and (max-width: 700px){
+  .contact-message { font-size: 2rem; margin-top:10%;}
+}
+
 .profile-text { text-align: left; color:rgb(91, 90, 90);  line-height: 150%;}
 
 .skill-box { width: 45%; margin-left: 2%;}
@@ -798,7 +811,7 @@ import $ from 'jquery'
 .contact-simbol { font-size: 3rem; color:rgb(9, 159, 186); }
 .contact-send { float:left; width: 70%;}
 .contact-image { width: 75%; height: 75%; }
-.contact-message { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 10%;}
+.contact-message { font-family: 'Noto Sans KR', sans-serif; margin-bottom: 10%;}
 
 #home { background-image: url('/img/006.jpeg'); background-repeat: no-repeat; }
 
