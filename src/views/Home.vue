@@ -626,7 +626,8 @@ import $ from 'jquery'
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
-.section {width: 100%;}
+/* 모바일 수평 스크롤 금지 */
+.section { width: 100%; max-width: 100%; overflow-x: hidden; }
 
 .nav {
   background-color: black;
