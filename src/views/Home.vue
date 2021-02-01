@@ -658,16 +658,19 @@ import $ from 'jquery'
 .home-text { font-size: 3rem; font-family: 'Noto Sans KR', sans-serif; margin-top: 3%; margin-right: 50%;}
 
 // 메인 메뉴 반응형
-@media screen and (min-width:700px) and (max-width:1050px) {
-  .nav-menu-item { font-size: 1.1rem; padding: 0 10px;}
-}
-
-@media screen and (max-width:700px) {
+@media screen and (max-width:1050px) {
   .nav-menu-item { font-size: 0.8rem; padding: 0 2px;}
   .nav-menu { margin-left: -5%; }
   .nav { height: 5%; }
   #home { background-size: cover; }
 }
+
+// @media screen and (max-width:700px) {
+//   .nav-menu-item { font-size: 0.8rem; padding: 0 2px;}
+//   .nav-menu { margin-left: -5%; }
+//   .nav { height: 5%; }
+//   #home { background-size: cover; }
+// }
 
 
 // Home 페이지 반응형
