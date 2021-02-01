@@ -627,6 +627,8 @@ import $ from 'jquery'
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 
+.container-fluid { overflow:hidden; }
+
 .section { width: 100%; }
 
 .nav {
