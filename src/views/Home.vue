@@ -345,7 +345,7 @@
                     <span class="project-subject-name">타코 주문 서비스 </span>
                     <span class="project-subject-year">2020.10</span>
                     <span class="project-description-text text-left">
-                      <a href="https://github.com/inwoox/inwoox.github.io" style="font-size:2rem; color:black; margin-left:5%;"><font-awesome-icon :icon="['fab','github']"/></a>
+                      <a href="https://github.com/inwoox/Spring-TacoDesign" style="font-size:2rem; color:black; margin-left:5%;"><font-awesome-icon :icon="['fab','github']"/></a>
                     </span>
                   </p>
                   <div class="col">
@@ -410,7 +410,7 @@
                     <span class="project-subject-name">트렐로와 유사한 작업 관리 </span>
                     <span class="project-subject-year">2020.11</span>
                     <span class="project-description-text text-left">
-                      <a href="https://github.com/inwoox/inwoox.github.io" style="font-size:2rem; color:black; margin-left:5%;"><font-awesome-icon :icon="['fab','github']"/></a>
+                      <a href="https://github.com/inwoox/Vue-Spring-TaskManager" style="font-size:2rem; color:black; margin-left:5%;"><font-awesome-icon :icon="['fab','github']"/></a>
                     </span>
                   </p>
                   <div class="col">
