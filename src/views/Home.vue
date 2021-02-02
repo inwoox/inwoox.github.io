@@ -447,19 +447,19 @@
                 <div class="row">
                   <div class="col project-mapper">
                     <img src="img/task1.png" class="project-sub-image">
-                    <p class="project-description-text">이것은 거시기입니다</p>
+                    <p class="project-description-text">로그인 페이지입니다</p>
                   </div>
                   <div class="col project-mapper">
                     <img src="img/task2.png" class="project-sub-image">
-                    <p class="project-description-text">이것은 거시기입니다</p>
+                    <p class="project-description-text">보드 만드는 화면입니다</p>
                   </div>
                   <div class="col project-mapper">
                     <img src="img/task3.png" class="project-sub-image">
-                    <p class="project-description-text">이것은 거시기입니다</p>
+                    <p class="project-description-text">보드 내부의 화면입니다</p>
                   </div>
                   <div class="col project-mapper">
                     <img src="img/task4.png" class="project-sub-image">
-                    <p class="project-description-text">이것은 거시기입니다</p>
+                    <p class="project-description-text">카드 만드는 화면입니다</p>
                   </div>
                 </div>
               </div>
@@ -533,7 +533,6 @@ import $ from 'jquery'
       Carousel, Slide
     },
     created() {
-        // nav 메뉴 누를 경우, 해당 섹션으로 이동하면서, 효과
       $(document).ready(function() {
         // emailjs 설정
         emailjs.init("user_Y4qSpAzV7mOWsYRDXqUSA");
@@ -561,7 +560,7 @@ import $ from 'jquery'
         });
           
  
-
+        // nav 메뉴 누를 경우, 해당 섹션으로 이동하면서, 효과
         var $menu = $(".nav-menu");
         var $menu_a = $("a", $menu);
         var hash = function(h) {
