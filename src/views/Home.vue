@@ -66,44 +66,38 @@
           <div class="row">
             <div class="alert alert-primary skill-box">
               <p class="h3 text-left skill-title">JAVA</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Spring Framework, Spring Boot를 통한 백엔드 개발 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Spring Security (요청 단위 인증, 사용자 인증 처리) </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> REST API 설계 / 레이어드 아키텍처 & 헥사고날 아키텍처 구현</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Microservice Achitecture 경험 (+ 유레카 서비스 레지스트리) </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Maven, Gradle 등 빌드 관리 도구 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Spring Framework, Spring Boot / REST API를 활용한 웹 개발 경험</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Layered, Hexagonal Architecture 구현 경험</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 빌드/테스트/배포 자동화 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 스프링 클라우드 / 마이크로서비스 아키텍처 기반의 시스템 개발 경험</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> JPA / Hibernate 등 ORM 기반 개발 경험</p>
             </div>
             <div class="alert alert-success skill-box">
               <p class="h3 text-left skill-title">Javascript / HTML / CSS</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Vue.js Framework (vuex, vue-router, component, 이벤트 처리) </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Sequelize (ORM), bcrypt, JWT, vue-cookies 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Bootstrap을 통한 UI, 반응형 UI 구현 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Jquery를 통한 이벤트 연결 / 요소 엑세스 등</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 기본적인 HTML, CSS 사용</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Vue.js를 사용하여 SPA 개발 경험</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Webpack, Babel 등을 이용한 프로젝트 환경 구성 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Bootstrap을 통한 반응형 UI 구현 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Jquery / ES6+ 를 활용한 개발 경험</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 기본적인 HTML / CSS / CSS 전처리기 사용 경험 </p>
             </div>
           </div>
           <div class="row">
-            <div class="alert alert-danger skill-box">
-              <p class="h3 text-left skill-title">Python / C#</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 파이썬 크롤러 및 C# 크롤러 등 필요한 프로그램 구현 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> C#을 통한 데스크톱 프로그램 구현 (온라인 클래스 운영)</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Python, tensorflow나 Scikit-learn을 통한 머신러닝 경험 </p>
-            </div>
             <div class="alert alert-warning skill-box">
-              <p class="h3 text-left skill-title">OS / DB</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 리눅스 (MAC) 환경 개발 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> JPA,Hibernate 등 ORM을 통한 데이터 퍼시스턴스 구현 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> MySQL 데이터모델링, 엔터티 설계 </p>
+              <p class="h3 text-left skill-title">운영 / 배포</p><br/>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 기본적인 Linux 커맨드 사용 능력 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Docker, 젠킨스를 통한 CI/CD 구축 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> AWS 등 클라우드 배포 및 운영 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Github, Bitbucket 등 git을 통한 버전 관리</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> MySQL 등 RDBMS 사용 경험 (데이터 모델링)</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Maven / Gradle 사용 경험</p>
             </div>
-          </div>
-          <div class="row">
-            <div class="alert alert-info skill-box skill-etc">
-              <p class="h3 text-left skill-title">ETC</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Docker를 통한 MySQL, Gogs, 메시지 브로커 (Kafka, RabbitMQ) 컨테이너 실행 등 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Docker, 젠킨스를 통한 배포 자동화 (CI/CD) </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 도커 컴포즈, 쿠버네티스 운영 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Github, Gogs 등 버전 관리 시스템을 통해, 구성 서버 구축 (PUSH마다 자동 구성 속성 리프레시 구현) </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> AWS 등 클라우드 배포 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Github, Bitbucket, Gogs를 통한 코드 관리 경험 </p>
+            <div class="alert alert-danger skill-box">
+              <p class="h3 text-left skill-title">정리</p><br/>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>언어:</strong> JAVA, Javascript, C#, Python </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>프레임워크 / 라이브러리:</strong> Spring, Vue.js, Bootstrap, jquery </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>데이터베이스:</strong> MySQL, PostgreSQL </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>빌드 도구:</strong> Maven , Gradle </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>운영 / 인프라:</strong> AWS, jenkins, Docker, Git </p>
             </div>
           </div>
         </section>
@@ -710,11 +704,9 @@ import $ from 'jquery'
 // Skill 페이지 반응형
 @media screen and (min-width:1700px) and (max-width:2800px) {
   .skill-subject { margin-bottom: 3%; font-size: 3rem;}
-  .skill-text { margin-bottom: 1%; }
 }
 @media screen and (min-width:1000px) and (max-width:1700px) {
   .skill-subject { margin-bottom: 2%; font-size: 2.5rem;}
-  .skill-text { margin-bottom: 0%; }
 }
 @media screen and (max-width:1000px) {
   .skill-subject { margin-bottom: 5%; font-size: 1.5rem; }
@@ -777,7 +769,7 @@ import $ from 'jquery'
 
 .profile-text { text-align: left; color:rgb(91, 90, 90);  line-height: 150%;}
 
-.skill-box { width: 45%; margin-left: 2%;}
+.skill-box { width: 45%; margin-left: 2%; }
 .skill-etc { width: 92%;}
 .skill-subject { font-family: 'Noto Sans KR', sans-serif; margin-right: 10%;}
 .skill-text { color:rgb(91, 90, 90); }
