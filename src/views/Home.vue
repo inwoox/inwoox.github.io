@@ -801,7 +801,7 @@ import $ from 'jquery'
 #home { background-image: url('/img/006.jpeg'); background-repeat: no-repeat; }
 
 #home, #about, #skill, #career, #project, #contact { 
-  height: 100%; color: black; //background-color: #3db296;
+  height: 100%; color: black; overflow-x: hidden; //background-color: #3db296;
 }
 
 // 마우스 오버 시 언더라인 효과
@@ -829,7 +829,5 @@ import $ from 'jquery'
 
 // 글자 타이핑 효과
 p.typing-txt{ display: none; } 
-
-
 
 </style>
