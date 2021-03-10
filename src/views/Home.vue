@@ -111,58 +111,55 @@
                   <span class="career-company-year">2012.02 - 2012.07</span>
                 </p>
                 <p class="career-company-text">
-                  한국정보기술연구원에서 침해대응전문가 2기로, 정보보안 교육을 받았습니다.<br/>
-                  환경을 구축하고, 다양한 침해대응, 모의해킹 기법에 대하여 배웠으며, <br/>
-                  여러 운영체제와 툴을 접해보는 시간이었습니다.<br/>
-                  조별 PT를 위해 세시간동안 집에 걸어가면서, 발표를 연습하던 기억이 납니다.<br/>
-                  처음 접하는 내용이 대부분이었기 때문에, 따라가기 위해서 최선을 다하면서 <br/>
-                  찾아서 공부를 하기위해, 많은 관련 자격증에 도전하였습니다.
+                  한국정보기술연구원 정보보안 교육 수료 (침해대응전문가 2기) <br/>
+                  정보보안 실무, 네트워크, 운영체제, 모의해킹, 악성코드 분석 등
                 </p>
               </div>
               <div class="career-box text-left">
                 <h1 class="career-year">2013</h1>
                 <p class="career-company">
-                  <span class="career-company-name">TSGM </span>
+                  <span class="career-company-name">T 사 </span>
                   <span class="career-company-year">2013.02 - 2014.04</span>
                 </p>
                 <p class="career-company-text">
-                  TSGM이라는 회사에, 처음으로 보안 업계에 솔루션 엔지니어로 입사하였습니다.<br/>
-                  주로 시만텍의 데이터 유출 방지 솔루션 (DLP), 안티바이러스 등의<br/>
-                  솔루션 및 네트워크 장비 기술지원 업무를 맡았습니다. <br/>
-                  여러 아르바이트 경험이 있었으나, 여러 고객사를 돌아다니고, <br/>
-                  출장을 다니면서 또 다른 사회를 배우는 계기가 되었습니다.<br/>
-                  이 회사를 통해 기본적인 IT 소양을 갖출 수 있었습니다.
+                  T사 솔루션 엔지니어<br/>
+                  시만텍 데이터 유출 방지 솔루션 (DLP), 안티바이러스, 네트워크 장비 등 기술지원 <br/>
                 </p>
               </div>
               <div class="career-box text-left">
                 <h1 class="career-year">2014</h1>
                 <p class="career-company">
-                  <span class="career-company-name">싸이버원 </span>
+                  <span class="career-company-name">C 사 </span>
                   <span class="career-company-year">2014.07 - 2019.01</span>
                 </p>
                 <p class="career-company-text">
-                  보안관제 전문업체에서 침해사고 대응 및 보안 관제 업무를 맡았습니다.<br/>
-                  보안 정책을 수립하고, 정책에 기반하여 보안과 가용성 사이에서 적절한 전략으로<br/>
-                  보안 장비를 운영하여 침해에 대응하거나 탐지하며, 서비스 가용성 유지를 위한<br/>
-                  가용성 체크 및 로깅 관련 업무를 하였습니다. 그래서 자연스럽게 그에 필요한 <br/>
-                  네트워크나 운영체제, 다양한 보안 장비 등에 대해서 이해하게 되었습니다. <br/>
+                  C사 침해사고 대응 및 보안관제 업무<br/>
+                  보안 정책 수립, 정책에 기반하여 보안과 가용성 사이에서 적절한 전략 수립<br/>
+                  침해 대응 및 탐지, 보안 장비 운영, 서비스 가용성 유지<br/>
+                </p>
+              </div>
+              <div class="career-box text-left">
+                <h1 class="career-year">2019</h1>
+                <p class="career-company">
+                  <span class="career-company-name">C 사 </span>
+                  <span class="career-company-year">2019.02 - 2020.09</span>
+                </p>
+                <p class="career-company-text">
+                  C사 프론트엔드 개발자 <br/>
+                  VueJS를 통한 웹 프론트 개발 <br/>
+                  C#을 통한 관리용 데스크톱 프로그램을 제작 <br/>
                 </p>
               </div>
             </div>
             <div class="col career-line">
               <div class="career-box text-left">
-                <h1 class="career-year">2019</h1>
+                <h1 class="career-year">NOW</h1>
                 <p class="career-company">
-                  <span class="career-company-name">캐터스이노베이션 </span>
-                  <span class="career-company-year">2019.02 - 2020.09</span>
+                  <span class="career-company-name">I 사 </span>
+                  <span class="career-company-year">2021.03 -</span>
                 </p>
                 <p class="career-company-text">
-                  전 회사에서 업무를 수행하면서, 간단하고 반복적인 프로세스들에 대하여 <br/>
-                  코딩을 통해 자동화하는 방법에 대해 많이 고민해오면서, Python이나 <br/>
-                  C#과 같은 언어를 공부하게 되었으며, 그러던 중에 더 큰 흥미가 생기고, <br/>
-                  개발자로 이직을 하게 되었습니다. C#으로 관리용 데스크톱 프로그램을 제작 <br/>
-                  그리고 Vuejs를 통한 프론트 웹페이지 구축 및 유지보수 업무를 하던 중에<br/>
-                  코로나로 인해 회사에서 사업을 접게 되어 그만두게 되었습니다.
+                  웹개발자로 근무 중..
                 </p>
               </div>
               <div class="career-box text-left">
@@ -173,8 +170,8 @@
                   <span><a href="https://inwoox.tistory.com/" class="career-icon"><font-awesome-icon :icon="['fas','blog']"/></a> </span>
                 </p>
                 <p class="career-company-text">
-                  여러가지 개발 주제를 다루는 기술 블로그를 운영하고 있습니다.<br/>
-                  제가 공부하고 경험해본 것들을 정리하여 기술하고 있습니다.<br/>
+                  개발 관련 기술 블로그 운영<br/>
+                  C#, Java, Javascript, WEB, 형상 관리, 알고리즘 문제 풀이 등<br/>
 
                 </p>
               </div>
@@ -185,11 +182,8 @@
                   <span><a href="https://www.youtube.com/%EC%84%B8%EC%83%81%EC%9D%98%EB%AA%A8%EB%93%A0%EC%BD%94%EB%94%A9" class="career-icon"><font-awesome-icon :icon="['fab','youtube']"/></a> </span>
                 </p>
                 <p class="career-company-text">
-                  C#이나, Vuejs, Python, Git 등 다양한 주제에 대하여 영상을 업로드하고 있습니다.<br/>
-                  이후로는 자바와 자바스크립트 등 웹개발 관련 컨텐츠에 주력할 계획입니다.<br/>
-                  컨텐츠를 만들면서 저도 많이 배우고, 구독자 분들과의 소통을 통해<br/>
-                  매우 즐겁게 활동하고 있습니다. 지금은 약 1000명이 조금 넘는 정도로 미약하지만<br/>
-                  언젠가는 코딩? 하면 먼저 생각나는 채널이 될 수 있도록 열심히 노력하고 있습니다.
+                  개발 관련 기술 YOUTUBE 운영<br/>
+                  C#, Java, Javascript, WEB, 형상 관리, 알고리즘 문제 풀이 등<br/>
                 </p>
               </div>
               <div class="career-box text-left">
@@ -199,10 +193,8 @@
                   <span><a href="https://class101.net/products/5fad37cef17f1f000dbeb172" class="career-icon"><font-awesome-icon :icon="['fas','chalkboard-teacher']"/></a> </span>
                 </p>
                 <p class="career-company-text">
-                  Class101이라는 온라인 클래스에 C# 크롤링 강좌를 개설하여, 운영 중에 있습니다.<br/>
-                  2개월의 시간에 걸쳐 35강 정도의 강좌를 제작하고, 2021년 1월에 런칭하였습니다.<br/>
-                  Youtube를 보고 Class101의 MD분에게 제의가 들어와, 강좌를 제작하게 되었는데<br/>
-                  지금까지 했던 노력들이 어느정도는 결실을 얻은거 같아 뿌듯했습니다.
+                  Class101 - 초급 C# 크롤링 강좌 개설 및 운영 중<br/>
+                  총 35강 / 2021년 1월 런칭<br/>
                 </p>
               </div>
             </div>
@@ -250,19 +242,16 @@
                   <span class="career-license-year"> 2020.03</span>
                 </p>
                 <p class="career-company-text">
-                  기본적인 웹페이지를 구성하기 위한 html부터 css를 다루는 방법, <br/>
-                  자바스크립트에 대해서 공부하고, DB를 구축하고 운영해보았습니다.<br/>
-                  JDBC와 API 설계에 대하여 공부하였습니다.
-                  
+                  웹프로그래밍 온라인 클래스 수강 <br/>
+                  HTML, CSS, javascript 및 JDBC, API 설계 등<br/>
                 </p>
                 <p class="career-education">
                   <span class="career-education-name">Naver edwith 웹 백엔드</span>
                   <span class="career-license-year"> 2020.04</span>
                 </p>
                 <p class="career-company-text">
-                  스프링 프레임워크를 다루어보면서, Spring JDBC, Spring MVC <br/>
-                  그리고 Form Controller, Rest Controller를 <br/>
-                  구현하는 방법에 대하여 공부하였습니다.
+                  웹프로그래밍 온라인 클래스 수강 <br/>
+                  SpringFramework, Spring JDBC, Spring MVC 등 <br/>
                 </p>
               </div>
             </div>
