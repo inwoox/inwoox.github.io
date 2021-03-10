@@ -159,7 +159,7 @@
                   <span class="career-company-year">2021.03 -</span>
                 </p>
                 <p class="career-company-text">
-                  웹개발자로 근무 중..
+                  <strong class="h5">더 나은 웹개발자가 되기 위하여 달려가는 중!</strong>
                 </p>
               </div>
               <div class="career-box text-left">
