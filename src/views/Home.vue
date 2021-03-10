@@ -687,7 +687,6 @@ import $ from 'jquery'
 @media screen and (max-width:680px) {
   .profile-text-subject { font-size:0.9rem; }
   .profile-text { font-size: 0.6rem; }
-
 }
 
 // Skill 페이지 반응형
@@ -756,6 +755,13 @@ import $ from 'jquery'
   .contact-message { font-size: 2rem; margin-top:10%;}
 }
 
+// 모바일 페이지 수평 스크롤 불가
+@media screen and (max-width:680px) {
+  #home, #about, #skill, #career, #project, #contact {
+    max-width: 100%; overflow-x: hidden;
+  }
+}
+
 .profile-text { text-align: left; color:rgb(91, 90, 90);  line-height: 150%;}
 
 .skill-box { width: 45%; margin-left: 2%; }
@@ -801,7 +807,7 @@ import $ from 'jquery'
 #home { background-image: url('/img/006.jpeg'); background-repeat: no-repeat; }
 
 #home, #about, #skill, #career, #project, #contact { 
-  height: 100%; color: black; max-width: 100%; overflow-x: hidden; //background-color: #3db296;
+  height: 100%; color: black;  //background-color: #3db296;
 }
 
 // 마우스 오버 시 언더라인 효과
