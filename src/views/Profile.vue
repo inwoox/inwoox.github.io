@@ -6,7 +6,7 @@
         <div>
           <transition name="fade">
             <p class="h4" v-if="formshow"><strong class="h1 under"> 누구</strong><br/><br/>
-              늘 도전하는 개발자 <strong>황인우</strong>입니다. <font-awesome-icon :icon="['far','smile']"/><br/>
+              늘 도전하는 정보보안전문가 <strong>황인우</strong>입니다. <font-awesome-icon :icon="['far','smile']"/><br/>
               하루를 살더라도, 어제보다 더 나은 더 개발자가 되기를 소망하며,<br/>
               공부한 내용들을 요약하여 정리하고, 그것을 적용해보는 것을 즐기고 있습니다.<br/><br/><br/>
               <strong class="h1 under1">좋아하는 것</strong><br/><br/>

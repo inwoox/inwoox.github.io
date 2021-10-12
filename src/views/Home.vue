@@ -22,7 +22,7 @@
             <transition name="fade">
               <h1 v-if="formshow">안녕하세요, 반갑습니다 <font-awesome-icon :icon="['far','smile']"/> </h1>
             </transition>
-            <p class="typing-txt"> 개발자 황인우입니다! </p> 
+            <p class="typing-txt"> 늘 도전하는 보안전문가 황인우입니다! </p> 
             <p class="typing"></p> 
           </div>
         </section>
@@ -39,16 +39,16 @@
                   비록 늘 좋은 방향으로만 흘러가지는 않지만, <br/>
                   항상 좋은 방향으로 가기위해, 그리고 꾸준하게 노력하고 있습니다.<br/><br/><br/>
                   <b class="h3 under1 profile-text-subject">새로운 기술을 배워, 그것을 적용해보며 희열을 느끼는 사람</b><br/><br/>
-                  2020년에만 약 20권이 넘는 개발 관련 서적을 샀으며, 그것을 읽고 실습해보았습니다.<br/>
+                  2020년에만 약 20권이 넘는 보안, 개발 관련 서적을 샀으며, 그것을 읽고 실습해보았습니다.<br/>
                   100% 다 소화하지는 못했지만, 많은 기술들을 새로 접하고, 익히고 경험해볼 수 있었던<br/>
                   즐겁고 행복한 시간이었습니다. 새로운 강좌 컨텐츠를 만들어, <br/>
                   구독하시는 분들의 만족스런 피드백을 받는 것도 즐거운 경험입니다.<br/><br/><br/>
-                  <b class="h3 under2 profile-text-subject">나이에 상관 없이, 할 수 있는 데까지 개발을 하고 싶은 사람</b><br/><br/>
+                  <b class="h3 under2 profile-text-subject">나이에 상관 없이, 할 수 있는 데까지 일을 하고 싶은 사람</b><br/><br/>
                   돈보다도 '내 기술'을 가지고 싶고, 전문가, 기술자로 불리고 싶은 사람입니다. <br/>
                   정말 하고 싶은 일이 있는데, 나이가 너무 많아서 고민하고 있는 사람이 있다면,<br/>
                   저는 제가 그랬듯이, 지금 시작해도 늦지 않았다고, 인생은 매우 길다고 말해주고 싶습니다.<br/>
                   그리고 저 역시도 사회에, 주변의 시선에, 그 외의 어떤 여러가지에 얽매이지 않고,<br/>
-                  어떤 형태로든 개발자의 삶을, 내가 할 수 있는 데까지 이어가고 싶습니다.
+                  어떤 형태로든 보안전문가의 삶을, 내가 할 수 있는 데까지 이어가고 싶습니다.
                 </p>
               </transition>
             </div>
@@ -65,38 +65,36 @@
           </div>
           <div class="row">
             <div class="alert alert-primary skill-box">
-              <p class="h3 text-left skill-title">JAVA</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Spring Framework, Spring Boot / REST API를 활용한 웹 개발 경험</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Layered, Hexagonal Architecture 구현 경험</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 빌드/테스트/배포 자동화 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 스프링 클라우드 / 마이크로서비스 아키텍처 기반의 시스템 개발 경험</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> JPA / Hibernate 등 ORM 기반 개발 경험</p>
+              <p class="h3 text-left skill-title">운영</p><br/>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> ESM, 보안솔루션에 임계치 기반 및 탐지 시그니처 생성, 경보룰셋 정의</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 고객사 요청 정책 적용 및 검토 / 고객 요청 처리</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 보안솔루션 연동(SYSLOG, SNMP), 정기 백업/업데이트 경험 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> NMS,ESM으로 보안솔루션 HEALTH 체크 및 이벤트, 트래픽 분석 관리</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 보안 솔루션 정책 보안성 검토 및 고도화 ( IPS, WAF, FW 등 )</p>
             </div>
             <div class="alert alert-success skill-box">
-              <p class="h3 text-left skill-title">Javascript / HTML / CSS</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Vue.js를 사용하여 SPA 개발 경험</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Webpack, Babel 등을 이용한 프로젝트 환경 구성 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Bootstrap을 통한 반응형 UI 구현 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Jquery / ES6+ 를 활용한 개발 경험</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 기본적인 HTML / CSS / CSS 전처리기 사용 경험 </p>
+              <p class="h3 text-left skill-title">예방</p><br/>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 최신 공격 및 기술 정보 고객사 전달</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 정책 권고안 작성 및 제공 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 정기적 보안 솔루션 점검 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Port Scan 등을 통한 취약점 진단</p>
             </div>
           </div>
           <div class="row">
             <div class="alert alert-warning skill-box">
-              <p class="h3 text-left skill-title">운영 / 배포</p><br/>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 기본적인 Linux 커맨드 사용 능력 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Docker, 젠킨스를 통한 CI/CD 구축 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> AWS 등 클라우드 배포 및 운영 경험 </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Github, Bitbucket 등 git을 통한 버전 관리</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> MySQL 등 RDBMS 사용 경험 (데이터 모델링)</p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> Maven / Gradle 사용 경험</p>
+              <p class="h3 text-left skill-title">탐지</p><br/>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 웹페이지 위/변조 모니터링 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 취약페이지 노출 및 접근 여부 확인 </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 탐지된 이벤트 대상의 서버 체크 (취약할 수 있는 OS 등) </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 공격 패턴 분석 및 탐지 정책 수립</p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> 이벤트 정/오탐 확인 및 예외처리</p>
             </div>
             <div class="alert alert-danger skill-box">
-              <p class="h3 text-left skill-title">정리</p><br/>
+              <p class="h3 text-left skill-title">그리고 개발</p><br/>
               <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>언어:</strong> JAVA, Javascript, C#, Python </p>
               <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>프레임워크 / 라이브러리:</strong> Spring, Vue.js, Bootstrap, jquery </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>데이터베이스:</strong> MySQL, PostgreSQL </p>
-              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>빌드 도구:</strong> Maven , Gradle </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>데이터베이스:</strong> MySQL, MSSQL, ORACLE </p>
+              <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>빌드 도구:</strong> Maven </p>
               <p class="text-left skill-text"><font-awesome-icon :icon="['fas','check']"/> <strong>운영 / 인프라:</strong> AWS, jenkins, Docker, Git </p>
             </div>
           </div>
@@ -133,11 +131,26 @@
                   <span class="career-company-year">2014.07 - 2019.01</span>
                 </p>
                 <p class="career-company-text">
-                  C사 침해사고 대응 및 보안관제 업무<br/>
-                  보안 정책 수립, 정책에 기반하여 보안과 가용성 사이에서 적절한 전략 수립<br/>
-                  침해 대응 및 탐지, 보안 장비 운영, 서비스 가용성 유지<br/>
+                  <strong>프로젝트</strong><br/>
+                  경향신문 보안 장비 운영 및 관제 - 2014.07 ~ 2016.09<br/>
+                  로엔엔터테인먼트 보안 장비 운영 및 관제 - 2014.07 ~ 2016.09<br/>
+                  후이즈 보안 장비 운영 및 관제 - 2014.07 ~ 2016.09<br/>
+                  예스24 보안 장비 운영 및 관제 - 2014.07 ~ 2018.12<br/>
+                  인터파크 보안 장비 운영 및 관제 - 2014.07 ~ 2018.12<br/>
+                  노사발전재단 보안 장비 운영 및 관제 - 2014.07 ~ 2018.12<br/>
+                  그 외 다수 IDC 및 고객사 보안 장비 운영 및 관제 - 2014.07 ~ 2018.12<br/>
+                  <strong>보안솔루션 경험</strong><br/>
+                  - 보안관제센터에서 원격관제를 진행하며 운영한 제품<br/>
+                  - FW : JUNIPER NETSCREEN<br/>
+                  - WAF : 모니터랩 WEBINSIGHT, 펜타 WAPPLES, IMPERVA SECURESPHRE<br/>
+                  - UTM : FORTINET_FOTIGATE, 시큐아이_NXG_MF2<br/>
+                  - IPS: 윈스테크넷_SNIPER_IPS, 시큐아이_MFI<br/>
+                  - ANTIDOS : 윈스테크넷_SNIPER_DDX<br/>
+                  - ESM : 싸이버원_SECUPLAT_ESM, 싸이버원_PROM_ESM, 이글루시큐리티_SPIDERTM<br/>
                 </p>
               </div>
+            </div>
+            <div class="col career-line">
               <div class="career-box text-left">
                 <h1 class="career-year">2019</h1>
                 <p class="career-company">
@@ -150,16 +163,14 @@
                   C#을 통한 관리용 데스크톱 프로그램을 제작 <br/>
                 </p>
               </div>
-            </div>
-            <div class="col career-line">
               <div class="career-box text-left">
-                <h1 class="career-year">NOW</h1>
+                <h1 class="career-year">2021</h1>
                 <p class="career-company">
                   <span class="career-company-name">I 사 </span>
-                  <span class="career-company-year">2021.03 -</span>
+                  <span class="career-company-year">2021.03 - 2021.10</span>
                 </p>
                 <p class="career-company-text">
-                  <strong class="h5">더 나은 웹개발자가 되기 위하여 달려가는 중!</strong>
+                  Front / Backend 웹 개발자로 근무하며, 보안 + 개발 능력 습득!
                 </p>
               </div>
               <div class="career-box text-left">
