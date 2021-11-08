@@ -174,6 +174,16 @@
                 </p>
               </div>
               <div class="career-box text-left">
+                <h1 class="career-year">2021</h1>
+                <p class="career-company">
+                  <span class="career-company-name"><strong>Sellmate</strong> </span>
+                  <span class="career-company-year"> 2021.11 - </span>
+                </p>
+                <p class="career-company-text">
+                  <strong> 보안 / 시스템 & ISMS 운영 & 업무 자동화 </strong>
+                </p>
+              </div>
+              <div class="career-box text-left">
                 <h1 class="career-year">Activity</h1>
                 <p class="career-company">
                   <span class="career-company-name">BLOG 운영 </span>
