@@ -22,7 +22,7 @@
             <transition name="fade">
               <h1 v-if="formshow">안녕하세요, 반갑습니다 <font-awesome-icon :icon="['far','smile']"/> </h1>
             </transition>
-            <p class="typing-txt"> 늘 도전하는 보안전문가 황인우입니다! </p> 
+            <p class="typing-txt"> 늘 도전하는 황인우입니다! </p> 
             <p class="typing"></p> 
           </div>
         </section>
