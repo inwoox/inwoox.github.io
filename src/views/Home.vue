@@ -174,7 +174,6 @@
                 </p>
               </div>
               <div class="career-box text-left">
-                <h1 class="career-year">2021</h1>
                 <p class="career-company">
                   <span class="career-company-name"><strong>Sellmate</strong> </span>
                   <span class="career-company-year"> 2021.11 - </span>
